@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar/Navbar';
 import HeroSection from '../components/HeroSection/HeroSection';
 import Tabs from '../components/Tabs/Tabs';
 import HorizontalScrollSlider from '../components/HorizontalScrollSlider/HorizontalScrollSlider';
-import Footer from '../components/Footer/Footer';
 import { usePillar } from '../context/PillarContext';
 
 const Home = () => {
