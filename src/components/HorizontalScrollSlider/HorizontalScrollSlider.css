@@ -1,0 +1,60 @@
+.horizontal-scroll-outer {
+  width: 100vw;
+  overflow-x: hidden;
+  /* No padding on right, only on left */
+  padding-left: 0px;
+  padding-right: 0;
+ 
+  box-sizing: border-box;
+  position: relative;
+ 
+}
+
+.horizontal-scroll-slider {
+  width: 100vw;
+  overflow-x: auto;
+  overflow-y: visible;
+  /* Hide scrollbar on Webkit browsers */
+  scrollbar-width: none;
+  scrollbar-color: #e0e0e0 #fafafa;
+  padding-bottom: 2px;
+  padding-right: 170px;
+  padding-left: 10px;
+}
+
+.horizontal-scroll-slider::-webkit-scrollbar {
+  height: 10px;
+  background: #fafafa;
+}
+.horizontal-scroll-slider::-webkit-scrollbar-thumb {
+  background: #e0e0e0;
+  border-radius: 8px;
+}
+
+.slider-track {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: fit-content;
+  margin-left: 0px; /* Negative margin cancels the left padding so first card starts at 80px */
+}
+
+.slider-card-wrapper {
+  flex: 0 0 auto;
+  width: 493px;
+  height: 485px;
+  margin-right: 23px;
+}
+
+.slider-card-wrapper:last-child {
+  margin-right: 0;
+}
+
+/* Responsive: allow cards to shrink on small screens */
+@media (max-width: 600px) {
+  .slider-card-wrapper {
+    width: 90vw;
+    min-width: 260px;
+    height: auto;
+  }
+}
