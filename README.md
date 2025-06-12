@@ -40,7 +40,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/provital.git
+   git clone https://github.com/Yash9837/Provital-web.git
    cd provital
 
 2. Install dependencies:
