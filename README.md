@@ -2,8 +2,7 @@
 
  <!-- Replace with actual banner image -->
 ![image](https://github.com/user-attachments/assets/1e22af56-2672-4f04-a744-25bb5cfa894a)
-![image](https://github.com/user-attachments/assets/f1212832-a502-4355-a998-4ec8621791bd)
-![image](https://github.com/user-attachments/assets/4b11e3b6-203f-4fdc-b316-c9e9b0fb647c)
+![image](https://github.com/user-attachments/assets/f1212832-a502-4355-a998-4ec8621791bd) ![image](https://github.com/user-attachments/assets/4b11e3b6-203f-4fdc-b316-c9e9b0fb647c)
 
 
 
