@@ -1,6 +1,7 @@
 # ProVital - Lifestyle as Medicine 🌿
 
-![ProVital Banner](https://via.placeholder.com/1200x400?text=ProVital+Banner) <!-- Replace with actual banner image -->
+ <!-- Replace with actual banner image -->
+![image](https://github.com/user-attachments/assets/1e22af56-2672-4f04-a744-25bb5cfa894a)
 
 ProVital is a modern, responsive web application designed to promote wellness through the six pillars of a healthy lifestyle. Built with React, this platform empowers users to explore and adopt sustainable health practices with an intuitive interface and seamless user experience.
 
