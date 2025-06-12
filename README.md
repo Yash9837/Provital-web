@@ -41,11 +41,13 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone https://github.com/your-username/provital.git
    cd provital
-2. Install dependencies:
 
-```bash
-npm install
-Start the development server:
-bash
-npm start
-The application will open automatically in your default browser at http://localhost:3000
+2. Install dependencies:
+   ```bash
+   npm install
+
+3.Start the development server:
+
+   ```bash
+   npm start
+
