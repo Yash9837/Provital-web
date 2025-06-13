@@ -4,7 +4,7 @@
   /* No padding on right, only on left */
   padding-left: 0px;
   padding-right: 0;
- 
+
   box-sizing: border-box;
   position: relative;
  
@@ -12,6 +12,7 @@
 
 .horizontal-scroll-slider {
   width: 100vw;
+ 
   overflow-x: auto;
   overflow-y: visible;
   /* Hide scrollbar on Webkit browsers */
@@ -19,7 +20,7 @@
   scrollbar-color: #e0e0e0 #fafafa;
   padding-bottom: 2px;
   padding-right: 170px;
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 .horizontal-scroll-slider::-webkit-scrollbar {
@@ -42,7 +43,7 @@
 .slider-card-wrapper {
   flex: 0 0 auto;
   width: 493px;
-  height: 485px;
+  height: 500px;
   margin-right: 23px;
 }
 

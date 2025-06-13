@@ -3,8 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: none;
+  overflow-x: hidden;
   overflow-y: none;
+
 }
 
 body {
@@ -21,9 +22,13 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 2rem;
+  padding-left: 80px;
+}
+.navigation-arrows{
+  padding-right: 40px;
 }
 
 @media (max-width: 768px) {
@@ -34,7 +39,7 @@ body {
 
 /* Lifestyle Section */
 .lifestyle-section {
-  padding: 4rem;
+  padding: 0;
   padding-left: 0px;
   background: #ffffff;
   overflow: hidden;
@@ -250,7 +255,7 @@ body {
   z-index: 35;
   top: 0px;
   left: 0;
-  width: 97%;
+  width: 120%;
   height: 100px;
   background-color: #ffffff; 
   transform: rotate(-3deg); 

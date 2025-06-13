@@ -8,6 +8,8 @@
   width: 493px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 3.39px 26.26px 0 rgba(0, 0, 0, 0.12);
+
 }
 
 .pillar-card:hover {

@@ -5,6 +5,7 @@ import './HeroSection.css';
 const HeroSection = () => {
   return (
     <section className="hero-section">
+      
       <div className="hero-container">
         {/* Text Content - First on mobile */}
         <div className="hero-content-overlay">
@@ -19,14 +20,19 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
-
+        
         {/* Search Bar - Second on mobile */}
         <div className="hero-search-overlay">
+          
           <SearchBar />
+          
         </div>
+        
+       
 
         {/* Images - Third on mobile, horizontal scrolling */}
         <div className="hero-images-container">
+          
           <div className="hero-images">
             {/* Left Column - Moving Down on desktop, part of horizontal scroll on mobile */}
             <div className="image-column column-left">
